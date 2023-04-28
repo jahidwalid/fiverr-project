@@ -1,0 +1,63 @@
+
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 991px) {
+	.contact-section {
+	  padding-bottom: 48px;
+	}
+	.footer-bottom {
+		margin-top: 0px;
+	}
+  }
+  
+  @media (max-width: 767px) {
+	.large-img-section {
+	  padding-top: 20px;
+	}
+
+  
+	.about-section {
+	  padding-top: 40px;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	.footer-section {
+	  padding-top: 50px;
+	}
+  }
+  
+  @media (max-width: 425px) {
+	.hero-section {
+	  padding: 60px 0 115px;
+	}
+  }
+  
+  @media (max-width: 375px) {
+	/* 
+  ----------------------------------------
+  Variables
+  ----------------------------------------
+  */
+	:root {
+	  /*______ Font Size ______*/
+	  --size-5xl: 37px;
+	  --size-4xl: 27px;
+	  --size-3xl: 25px;
+	  --size-2xl: 18px;
+	  --size-xl: 17px;
+	}
+
+	.hero-content .hero-title .shape::after {
+		width: 35px;
+		height: 35px;
+		right: -40px;
+	}
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+.logo {
+    display: inline-block;
+}
